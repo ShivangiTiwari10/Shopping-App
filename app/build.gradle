@@ -59,4 +59,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore-ktx'
 
 
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+
+
 }
