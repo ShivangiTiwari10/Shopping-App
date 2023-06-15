@@ -58,9 +58,7 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-firestore-ktx'
 
-
-    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
-
     implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+
 
 }

@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         activityScope.launch {
             delay(2000)
 
-            val intent = Intent(this@MainActivity, LoginScreen::class.java)
+            val intent = Intent(this@MainActivity, BottomBarActivity::class.java)
             startActivity(intent)
             finish()
         }
