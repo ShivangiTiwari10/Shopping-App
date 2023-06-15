@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#A85085"
+    android:background="#B1CD56"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:contentDescription="@string/todo"
-        android:src="@drawable/emptycart" />
+        android:src="@drawable/shoppingcart" />
 </LinearLayout>
