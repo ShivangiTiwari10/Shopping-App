@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Shopping App</string>
     <string name="todo">TODO</string>
+    <string name="phonenumber">phonenumber</string>
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
 </resources>
