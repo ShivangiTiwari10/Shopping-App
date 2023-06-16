@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".BottomBarActivity">
 
+  <androidx.fragment.app.FragmentContainerView
+      android:id="@+id/fragmentContainer"
+      android:name="androidx.navigation.fragment.NavHostFragment"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toTopOf="@id/bottomBar"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      app:navGraph="@navigation/nav" />
+
+  <me.ibrahimsn.lib.SmoothBottomBar
+      android:id="@+id/bottomBar"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      app:iconMargin="8dp"
+      app:iconSize="20sp"
+      app:itemPadding="5dp"
+      app:backgroundColor="#B1CD56"
+      app:indicatorRadius="25sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/fragmentContainer"
+      app:menu="@menu/bottom_nav"
+      app:textSize="15sp"
+
+      />
   </androidx.constraintlayout.widget.ConstraintLayout>
