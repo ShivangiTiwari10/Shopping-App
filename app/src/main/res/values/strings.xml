@@ -8,4 +8,9 @@
     <string name="profile">Profile</string>
     <string name="cart">Cart</string>
     <string name="home">Home</string>
+    <string name="already_have_an_account_login">Already have an account ?logIn</string>
+    <string name="number">Number</string>
+    <string name="LogIn">login</string>
+    <string name="name">Name</string>
+    <string name="dont_have_an_account_sign_up">Dont have an account sign Up</string>
 </resources>
