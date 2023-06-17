@@ -13,4 +13,6 @@
     <string name="LogIn">login</string>
     <string name="name">Name</string>
     <string name="dont_have_an_account_sign_up">Dont have an account sign Up</string>
+    <string name="verify_otp">Verify Otp</string>
+    <string name="otp">otp</string>
 </resources>
