@@ -1,4 +1,4 @@
-package com.example.shoppingapp
+package com.example.shoppingapp.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.example.shoppingapp.RegisterActivity
 import com.example.shoppingapp.databinding.ActivityLoginScreenBinding
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuth
